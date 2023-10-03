@@ -1,3 +1,4 @@
+/* Assignment 1 */
 body{
     margin: 0;
 }
@@ -189,4 +190,71 @@ h2{
     border: 1px solid #4E55B7;
     margin-top: 30px;
     cursor: pointer;
+}
+/* Assignment 2 */
+#part1{
+    background-color: #f3f5fd;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+#flex{
+    display: flex;
+}
+.items-flex{
+    display: flex;
+    gap: 2rem;
+    margin-left: 350px;
+}
+#log-in{
+    color:#4E55B7;
+    font-weight: 700;
+    border: 1px solid transparent;
+    background-color: #f3f5fd;
+    cursor: pointer;
+}
+.button-items{
+   margin-left: 350px;
+}
+#start{
+    font-family: sans-serif;
+    /* margin-left: 120px; */
+    height: 40px;
+    width: 100px;
+    background-color:#4E55B7;
+    color: white;
+    border: 1px solid #4E55B7;
+    cursor: pointer;
+}
+#learn-more{
+    font-family: sans-serif;
+    height: 40px;
+    width: 100px;
+    background-color:white;
+    color: #4E55B7;
+    border: 1px solid #4E55B7;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#body{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+section{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 70px;
+}
+a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #4E55B7;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 120px;
 }
